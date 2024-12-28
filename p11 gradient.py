@@ -10,7 +10,6 @@ def gradient(f, x, h=1e-4):
         gradient[i] = (f(x_plus) - f(x_minus)) / (2 * h)
     return gradient
 
-# Example usage
 def f(x):
     return x[0]**2 + x[1]**2
 
